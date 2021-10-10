@@ -1,0 +1,28 @@
+#clock
+	font-family Roboto
+	height 100vh
+	width 100vw
+	display flex
+	align-items center
+	justify-content center
+	color #fff
+	background-color #111
+	transition .5s
+	h1
+		font-size 7em
+		cursor pointer
+		transition .2s
+		&::selection
+			background-color transparent
+			
+			
+.faded
+	opacity 0
+	
+#instruction
+	position absolute
+	width 100vw
+	text-align center
+	color #fff
+	font-family Roboto
+	font-size 18px
